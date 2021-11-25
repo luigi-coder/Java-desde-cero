@@ -1,4 +1,4 @@
-package POOCOCHE;
+package APLICACION_COCHE;
 
 public class Coche {
 	
