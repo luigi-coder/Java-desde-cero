@@ -1,4 +1,4 @@
-package POO;
+package POOCOCHE;
 
 public class Coche {
 	

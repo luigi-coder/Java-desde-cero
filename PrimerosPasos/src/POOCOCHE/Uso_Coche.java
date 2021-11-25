@@ -1,4 +1,4 @@
-package POO;
+package POOCOCHE;
 
 // Realizamos modularizacion desde la clase coche
 // Las clases se comunican entre si mediante metodos
