@@ -1,4 +1,4 @@
-package ROCALLOSAS;
+package APLICACION_ROCALLOSAS_JUNIT;
 
 public class Alumno {
 	
