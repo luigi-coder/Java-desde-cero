@@ -1,4 +1,4 @@
-package EMPLEADO;
+package APLICACION_EMPLEADO;
 
 public class Uso_Empleado {
 
