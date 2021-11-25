@@ -1,4 +1,4 @@
-package SISTEMAS_NOTAS_BBDD;
+package APLICACION_NOTAS_BBDD;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

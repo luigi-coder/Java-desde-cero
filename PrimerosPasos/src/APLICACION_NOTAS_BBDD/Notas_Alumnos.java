@@ -1,4 +1,4 @@
-package SISTEMAS_NOTAS_BBDD;
+package APLICACION_NOTAS_BBDD;
 
 public class Notas_Alumnos {
 	
