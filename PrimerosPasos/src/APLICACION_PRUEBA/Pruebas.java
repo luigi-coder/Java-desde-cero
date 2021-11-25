@@ -1,4 +1,4 @@
-package CONSTANTES;
+package APLICACION_PRUEBA;
 
 public class Pruebas {
 
