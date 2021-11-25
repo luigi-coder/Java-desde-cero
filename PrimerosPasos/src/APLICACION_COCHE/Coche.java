@@ -176,7 +176,7 @@ public class Coche {
 		
 	}
 	
-	// Getter ss
+	// Getter
 	public int PrecioCoche() {
 		
 		int precio_final = 10000;
