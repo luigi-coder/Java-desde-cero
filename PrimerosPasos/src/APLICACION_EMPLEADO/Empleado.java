@@ -8,6 +8,8 @@ public class Empleado {
 	private String nombre;
 	private double sueldo;
 	private Date altaContrato;
+	private static int IdSiguiente;
+	private int Id;
 	
 	public Empleado(
 			String nombre, 
@@ -26,6 +28,9 @@ public class Empleado {
 				dia);
 		
 		this.altaContrato = calendario.getTime();
+		
+		++IdSiguiente;
+		Id = IdSiguiente;
 	}
 	
 	/* Una sobrecarga de constructores implica que que puede 
@@ -35,7 +40,6 @@ public class Empleado {
 	// Contruyendo un segundo constructor para darle un valor
 	// inicial diferente, por ejemplo pasarle menos o mas 
 	// parametros 
-	
 	public Empleado(String nombre) {
 		
 		this(nombre, 30000, 2000, 01, 01);
@@ -46,6 +50,10 @@ public class Empleado {
 		return nombre;
 	}
 	
+	// Cuando colocamos la palabra final en un
+	// metodo, el mismo no se puede usar en una 
+	// subclase, osea no se puede sobreescribir.
+	// public final double getSueldo()
 	public double getSueldo() {
 		
 		return sueldo;
@@ -54,6 +62,11 @@ public class Empleado {
 	public Date getAltaContrato() {
 		
 		return altaContrato;
+	}
+	
+	public int getId() {
+		
+		return Id;
 	}
 	
 	public void subirSueldo(double porcentaje) {
