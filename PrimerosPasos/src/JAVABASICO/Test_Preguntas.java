@@ -26,7 +26,7 @@ public class Test_Preguntas {
 				pregunta = JOptionPane.showInputDialog(
 						   "¿ JavaScript es un lenguajes estrictamente tipado ? SI - NO");
 				
-				if(pregunta.equalsIgnoreCase("SI")) {
+				if(pregunta.equalsIgnoreCase("NO")) {
 						
 					JOptionPane.showMessageDialog(null,"respuesta correcta");
 					contadorC++;
@@ -60,7 +60,7 @@ public class Test_Preguntas {
 				pregunta = JOptionPane.showInputDialog(
 						   "¿ JavaScript es un lenguajes BackEnd ? SI - NO");
 				
-				if(pregunta.equalsIgnoreCase("SI")) {
+				if(pregunta.equalsIgnoreCase("NO")) {
 					
 					JOptionPane.showMessageDialog(null,"respuesta correcta");
 					contadorC++;
