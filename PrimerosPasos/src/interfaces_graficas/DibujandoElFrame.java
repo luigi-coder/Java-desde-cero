@@ -6,6 +6,7 @@ import java.awt.geom.Ellipse2D.Double;
 import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
+import java.security.DrbgParameters;
 
 import javax.swing.*;
 
@@ -70,6 +71,7 @@ class LaminaDeDibujo extends JPanel {
 		circulo.setFrameFromCenter(CentroenX, CentroenY, CentroenX+radio, CentroenY+radio);
 		
 		g2.draw(circulo);
+		
 	}
 }
 
