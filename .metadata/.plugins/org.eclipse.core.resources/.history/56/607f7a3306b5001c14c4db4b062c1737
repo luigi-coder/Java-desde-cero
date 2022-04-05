@@ -11,11 +11,8 @@ public class CreandoMarcos {
 		
 		miMarco marco = new miMarco();
 		
-		
-		// Hacer visible la ventana
 		marco.setVisible(true);
 		
-		// Lo que tiene que hacer la ventana cuando se cierre .
 		marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 	}
@@ -27,9 +24,6 @@ class miMarco extends JFrame {
 	
 	// Creacion del constructor
 	public miMarco() {
-		
-		// Establecemos en tamaño del marco
-		//	setSize(500,300);
 		
 		// Cambiando la ubicacion de la ventana 
 		// setLocation(500,500);

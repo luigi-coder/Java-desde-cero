@@ -15,7 +15,6 @@ public class CreandoMarcos {
 		// Hacer visible la ventana
 		marco.setVisible(true);
 		
-		// Lo que tiene que hacer la ventana cuando se cierre .
 		marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 	}
