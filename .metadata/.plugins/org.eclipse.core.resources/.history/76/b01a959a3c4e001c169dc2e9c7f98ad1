@@ -1,0 +1,9 @@
+package APLICACION_EMPLEADO;
+
+public class Jefatura extends Empleado {
+	
+	public Jefatura(String nombre, double sueldo, int anio, int mes, int dia) {
+		
+		super(nombre, sueldo, anio, mes, dia);
+	}
+}

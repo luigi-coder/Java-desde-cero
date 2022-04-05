@@ -1,0 +1,31 @@
+import javax.swing.JOptionPane;
+
+public class Validacion_Mail {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		boolean arroba = false;
+		
+		String mail = JOptionPane.showInputDialog("Ingrese su email: "); 
+		
+		System.out.println(mail.contains("@"));
+		for(int i=0; i<mail.length(); i++) {
+			
+			if(mail.charAt(i)=='@') {
+				
+				arroba = true;
+			}
+		}
+		
+		if(arroba) {
+			
+			JOptionPane.showMessageDialog(null, "El email es correcto");
+			
+		}else {
+			
+			JOptionPane.showMessageDialog(null, "El email es incorrecto");
+		}
+	}
+
+}

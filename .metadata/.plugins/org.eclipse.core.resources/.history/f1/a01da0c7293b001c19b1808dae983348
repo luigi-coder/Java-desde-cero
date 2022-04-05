@@ -1,0 +1,31 @@
+package Calculadora;
+
+import junit.framework.TestCase;
+
+public class TestCalculadora extends TestCase {
+	
+	private Calculadora calculadora;
+	
+	public void escenario() {
+		
+		calculadora = new Calculadora();
+	}
+	
+	public void sumar() {
+		
+		assertTrue;
+	}
+	
+	public void restar() {
+		
+		return a-b;
+	}
+	public void multiplicar() {
+		
+		return a*b;
+	}
+	public void dividir() {
+		
+		return a/b;
+	}
+}

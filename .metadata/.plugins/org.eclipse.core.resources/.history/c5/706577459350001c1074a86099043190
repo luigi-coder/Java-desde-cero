@@ -1,0 +1,15 @@
+package APLICACION_PERSONA;
+
+public class Uso_Persona {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Alumno alumno = new Alumno("Luis", "Programacion");
+		
+		System.out.println(alumno.getNombre() + "\n" +
+						   alumno.getDescripcion());
+	}
+
+}
+

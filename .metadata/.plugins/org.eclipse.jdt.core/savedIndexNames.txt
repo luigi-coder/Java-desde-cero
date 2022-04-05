@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+/Users/luis/Desktop/java-desde-cero/.metadata/.plugins/org.eclipse.jdt.core
+2853553213.index
+2353178382.index
+1252947361.index
+4205600882.index
+1865797976.index
+3067643259.index
+2696165760.index
+380017931.index

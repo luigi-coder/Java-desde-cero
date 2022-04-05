@@ -1,0 +1,15 @@
+package APLICACION_PERSONA;
+
+public class Uso_Persona {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Empleado empleado = new Empleado("Luis", 10000, 1992, 02, 10);
+		
+		System.out.println(empleado.getNombre() + "\n" +
+						   empleado.getDescripcion());
+	}
+
+}
+

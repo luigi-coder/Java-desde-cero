@@ -1,0 +1,10 @@
+package Calculadora;
+
+import junit.framework.TestCase;
+
+public class TestCalculadora extends TestCase {
+	
+	private Calculadora calculadora;
+	
+	
+}

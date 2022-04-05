@@ -1,0 +1,17 @@
+package CONSTANTES;
+
+public class Pruebas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Empleados empleado1 = new Empleados("Luis");
+		Empleados empleado2 = new Empleados("Andy");
+		
+		System.out.println(
+				"Nombre: " + empleado.getNombre() + "\n" +
+				"Seccion: " + empleado.getSeccion());
+	}
+
+}
+

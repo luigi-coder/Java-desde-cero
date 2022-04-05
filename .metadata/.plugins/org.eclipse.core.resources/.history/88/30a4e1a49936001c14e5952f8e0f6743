@@ -1,0 +1,21 @@
+
+public class Uso_Array_II {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String [] paises = {
+				"Peru",
+				"Argentina",
+				"Colombia",
+				"España"
+				};
+		
+		for(int i=0; i<paises.length;i++) {
+			System.out.println(paises[i]);
+		}
+		
+		
+	}
+
+}
