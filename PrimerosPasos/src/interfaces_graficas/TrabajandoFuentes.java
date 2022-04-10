@@ -18,6 +18,7 @@ public class TrabajandoFuentes {
 
 }
 
+
 class MarcoConFuente extends JFrame {
 	
 	public MarcoConFuente() {
@@ -70,4 +71,3 @@ class LaminaConFuente extends JPanel {
 	}
 	
 }
-
