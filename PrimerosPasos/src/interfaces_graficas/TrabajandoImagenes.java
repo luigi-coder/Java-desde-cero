@@ -65,17 +65,14 @@ class LaminaConImagen extends JPanel {
 		super.paintComponent(g);
 		
 		
-		
-		
-		
 		int anchuraImagen = imagen.getWidth(this); // this es la lamina
 		int alturaImagen = imagen.getHeight(this);
 		
 		g.drawImage(imagen, 0, 0, null);
 		
-		for (int i=0; i < 300; i++) {
+		for (int i=0; i < 3; i++) { // Primer for impacta en el ancho
 			
-			for (int j = 0; j < 200; j++) {
+			for (int j = 0; j < 2; j++) { // Segundo for impacta en el alto
 				
 				if(i+j > 0) {
 					
