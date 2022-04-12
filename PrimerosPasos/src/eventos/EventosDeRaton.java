@@ -8,7 +8,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class PruebaEventos {
+public class EventosDeRaton {
 	
 	public static void main(String[] args) {
 		
@@ -35,6 +35,62 @@ class MarcoBotones extends JFrame {
 	}
 }
 
+
+class LaminaBotones extends JPanel {
+	
+	// Creando un boton 
+	JButton botonAzul = new JButton("Azul");
+	JButton botonAmarillo = new JButton("Amarillo");
+	JButton botonRojo = new JButton("Rojo");
+	// Agreganfo un boton a mi frame 
+	public LaminaBotones() {
+		
+		add(botonAzul);
+		add(botonAmarillo);
+		add(botonRojo);
+		
+		// Instanciamos ColorFondo
+		ColorFondo amarillo = new ColorFondo(Color.yellow);
+		ColorFondo azul = new ColorFondo(Color.blue);
+		ColorFondo rojo = new ColorFondo(Color.red);
+		
+		
+		// No olvidar que es metodo addActionListener() espera
+		// como parametro un objeto que implemente la clase
+		// ActionListener
+		botonAzul.addActionListener(azul);
+		botonAmarillo.addActionListener(amarillo);
+		botonRojo.addActionListener(rojo);
+		
+	}
+	
+	// El oyente en este caso es la clase ColorFondo, por eso
+	// luego instaciamos un objeto de tipo ColorFondo y se lo
+	// pasamos como parametro al metodo addActionListener()
+	private class ColorFondo implements ActionListener {
+		
+		private Color colorDeFondo;
+		
+		public ColorFondo(Color c) {
+			
+			colorDeFondo = c;
+		}
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+			setBackground(colorDeFondo);
+		}
+
+	}
+	
+}
+
+
+
+
+/* Primera forma 
 class LaminaBotones extends JPanel implements ActionListener{
 	
 	// Creando un boton 
@@ -82,7 +138,7 @@ class LaminaBotones extends JPanel implements ActionListener{
 		
 	}
 	
-}
+}*/
 
 
 
