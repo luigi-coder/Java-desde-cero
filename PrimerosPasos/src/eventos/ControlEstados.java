@@ -34,7 +34,7 @@ class MarcoControlEstado extends JFrame{
 }
 
 
-class MensajeEstado implements WindowStateListener {
+class MensajeEstado extends WindowAdapter {
 
 	@Override
 	public void windowStateChanged(WindowEvent e) {
